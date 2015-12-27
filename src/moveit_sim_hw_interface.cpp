@@ -44,14 +44,21 @@
 namespace moveit_sim_controller
 {
 MoveItSimHWInterface::MoveItSimHWInterface(ros::NodeHandle& nh, urdf::Model* urdf_model)
-  : ros_control_boilerplate::SimHWInterface(nh, urdf_model), name_("moveit_sim_hw_interface")
+  : ros_control_boilerplate::SimHWInterface(nh, urdf_model)
+  , name_("moveit_sim_hw_interface")
 {
   // Load rosparams
   ros::NodeHandle rpnh(nh_, name_);
   std::size_t error = 0;
-  error += !rosparam_shortcuts::getStringParam(name_, rpnh, "joint_model_group", joint_model_group_);
-  error += !rosparam_shortcuts::getStringParam(name_, rpnh, "joint_model_group_pose", joint_model_group_pose_);
+  error += !rosparam_shortcuts::get(name_, rpnh, "joint_model_group", joint_model_group_);
+  error += !rosparam_shortcuts::get(name_, rpnh, "joint_model_group_pose", joint_model_group_pose_);
   rosparam_shortcuts::shutdownIfParamErrors(name_, error);
+}
+
+void MoveItSimHWInterface::init()
+{
+  // Call parent class version of this function
+  SimHWInterface::init();
 
   // Load the loader
   robot_model_loader_.reset(new robot_model_loader::RobotModelLoader(ROBOT_DESCRIPTION));
