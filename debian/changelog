@@ -1,0 +1,24 @@
+ros-indigo-moveit-sim-controller (0.0.4-0saucy) saucy; urgency=high
+
+  * Improved rosparam_shortcuts api
+  * Fixed initialization of default joint positions
+  * Fix travis
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Sun, 27 Dec 2015 05:00:00 -0000
+
+ros-indigo-moveit-sim-controller (0.0.3-0saucy) saucy; urgency=high
+
+  * Fix missing dep
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Thu, 10 Dec 2015 05:00:00 -0000
+
+ros-indigo-moveit-sim-controller (0.0.2-0saucy) saucy; urgency=high
+
+  * Initial release
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Thu, 10 Dec 2015 05:00:00 -0000
+
+
