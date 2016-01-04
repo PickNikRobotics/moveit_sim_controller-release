@@ -1,0 +1,24 @@
+ros-jade-moveit-sim-controller (0.0.4-0utopic) utopic; urgency=high
+
+  * Improved rosparam_shortcuts api
+  * Fixed initialization of default joint positions
+  * Fix travis
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Sun, 27 Dec 2015 07:00:00 -0000
+
+ros-jade-moveit-sim-controller (0.0.3-0utopic) utopic; urgency=high
+
+  * Fix missing dep
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Thu, 10 Dec 2015 07:00:00 -0000
+
+ros-jade-moveit-sim-controller (0.0.2-0utopic) utopic; urgency=high
+
+  * Initial release
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Thu, 10 Dec 2015 07:00:00 -0000
+
+
