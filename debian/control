@@ -1,0 +1,12 @@
+Source: ros-jade-moveit-sim-controller
+Section: misc
+Priority: extra
+Maintainer: Dave Coleman <davetcoleman@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-moveit-core, ros-jade-moveit-ros-planning, ros-jade-ros-control-boilerplate, ros-jade-roscpp, ros-jade-rosparam-shortcuts
+Homepage: https://github.com/davetcoleman/moveit_sim_controller
+Standards-Version: 3.9.2
+
+Package: ros-jade-moveit-sim-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-moveit-core, ros-jade-moveit-ros-planning, ros-jade-ros-control-boilerplate, ros-jade-roscpp, ros-jade-rosparam-shortcuts
+Description: A simulation interface for a hardware interface for ros_control, and loads default joint values from SRDF
