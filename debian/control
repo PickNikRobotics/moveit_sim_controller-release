@@ -1,0 +1,12 @@
+Source: ros-kinetic-moveit-sim-controller
+Section: misc
+Priority: extra
+Maintainer: Dave Coleman <davetcoleman@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-moveit-core, ros-kinetic-moveit-ros-planning, ros-kinetic-ros-control-boilerplate, ros-kinetic-roscpp, ros-kinetic-roslint, ros-kinetic-rosparam-shortcuts
+Homepage: https://github.com/davetcoleman/moveit_sim_controller
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-moveit-sim-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-moveit-core, ros-kinetic-moveit-ros-planning, ros-kinetic-ros-control-boilerplate, ros-kinetic-roscpp, ros-kinetic-rosparam-shortcuts
+Description: A simulation interface for a hardware interface for ros_control, and loads default joint values from SRDF
