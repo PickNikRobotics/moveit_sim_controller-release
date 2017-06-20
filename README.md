@@ -1,3 +1,26 @@
+## moveit_sim_controller (lunar) - 0.1.0-0
+
+The packages in the `moveit_sim_controller` repository were released into the `lunar` distro by running `/usr/bin/bloom-release moveit_sim_controller -t lunar -r lunar` on `Tue, 20 Jun 2017 18:40:31 -0000`
+
+The `moveit_sim_controller` package was released.
+
+Version of package(s) in repository `moveit_sim_controller`:
+
+- upstream repository: https://github.com/davetcoleman/moveit_sim_controller.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.5`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## moveit_sim_controller (kinetic) - 0.1.0-0
 
 The packages in the `moveit_sim_controller` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release moveit_sim_controller -t kinetic -r kinetic` on `Fri, 21 Oct 2016 00:18:12 -0000`
