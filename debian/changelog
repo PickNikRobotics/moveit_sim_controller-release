@@ -1,0 +1,41 @@
+ros-lunar-moveit-sim-controller (0.1.0-0zesty) zesty; urgency=high
+
+  * Add C++11 support
+  * Fixed occational Nan
+  * Minor formatting
+  * added roslint and roslint changes
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Wed, 19 Oct 2016 21:00:00 -0000
+
+ros-lunar-moveit-sim-controller (0.0.5-0zesty) zesty; urgency=high
+
+  * Fixed deprecated API for rosparam_shortcuts
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Tue, 12 Jan 2016 21:00:00 -0000
+
+ros-lunar-moveit-sim-controller (0.0.4-0zesty) zesty; urgency=high
+
+  * Improved rosparam_shortcuts api
+  * Fixed initialization of default joint positions
+  * Fix travis
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Sat, 26 Dec 2015 21:00:00 -0000
+
+ros-lunar-moveit-sim-controller (0.0.3-0zesty) zesty; urgency=high
+
+  * Fix missing dep
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Wed, 09 Dec 2015 21:00:00 -0000
+
+ros-lunar-moveit-sim-controller (0.0.2-0zesty) zesty; urgency=high
+
+  * Initial release
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Wed, 09 Dec 2015 21:00:00 -0000
+
+
