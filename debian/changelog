@@ -1,0 +1,41 @@
+ros-melodic-moveit-sim-controller (0.1.0-0stretch) stretch; urgency=high
+
+  * Add C++11 support
+  * Fixed occational Nan
+  * Minor formatting
+  * added roslint and roslint changes
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Thu, 20 Oct 2016 06:00:00 -0000
+
+ros-melodic-moveit-sim-controller (0.0.5-0stretch) stretch; urgency=high
+
+  * Fixed deprecated API for rosparam_shortcuts
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Wed, 13 Jan 2016 07:00:00 -0000
+
+ros-melodic-moveit-sim-controller (0.0.4-0stretch) stretch; urgency=high
+
+  * Improved rosparam_shortcuts api
+  * Fixed initialization of default joint positions
+  * Fix travis
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Sun, 27 Dec 2015 07:00:00 -0000
+
+ros-melodic-moveit-sim-controller (0.0.3-0stretch) stretch; urgency=high
+
+  * Fix missing dep
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Thu, 10 Dec 2015 07:00:00 -0000
+
+ros-melodic-moveit-sim-controller (0.0.2-0stretch) stretch; urgency=high
+
+  * Initial release
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Thu, 10 Dec 2015 07:00:00 -0000
+
+
