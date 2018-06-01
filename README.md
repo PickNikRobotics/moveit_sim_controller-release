@@ -1,3 +1,26 @@
+## moveit_sim_controller (melodic) - 0.1.0-0
+
+The packages in the `moveit_sim_controller` repository were released into the `melodic` distro by running `/usr/bin/bloom-release moveit_sim_controller -t melodic -r melodic` on `Fri, 01 Jun 2018 15:22:16 -0000`
+
+The `moveit_sim_controller` package was released.
+
+Version of package(s) in repository `moveit_sim_controller`:
+
+- upstream repository: https://github.com/PickNikRobotics/moveit_sim_controller.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.2`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## moveit_sim_controller (lunar) - 0.1.0-0
 
 The packages in the `moveit_sim_controller` repository were released into the `lunar` distro by running `/usr/bin/bloom-release moveit_sim_controller -t lunar -r lunar` on `Tue, 20 Jun 2017 18:40:31 -0000`
