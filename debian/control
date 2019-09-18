@@ -1,0 +1,12 @@
+Source: ros-melodic-moveit-sim-controller
+Section: misc
+Priority: extra
+Maintainer: Dave Coleman <davetcoleman@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-moveit-core, ros-melodic-moveit-ros-planning, ros-melodic-ros-control-boilerplate, ros-melodic-roscpp, ros-melodic-roslint, ros-melodic-rosparam-shortcuts
+Homepage: https://github.com/davetcoleman/moveit_sim_controller
+Standards-Version: 3.9.2
+
+Package: ros-melodic-moveit-sim-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-moveit-core, ros-melodic-moveit-ros-planning, ros-melodic-ros-control-boilerplate, ros-melodic-roscpp, ros-melodic-rosparam-shortcuts
+Description: A simulation interface for a hardware interface for ros_control, and loads default joint values from SRDF
