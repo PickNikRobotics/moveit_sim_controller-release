@@ -39,6 +39,12 @@
 #include <ros_control_boilerplate/generic_hw_control_loop.h>
 #include <moveit_sim_controller/moveit_sim_hw_interface.h>
 
+// Support released kinetic & melodic versions of GenericHWControlLoop
+// can be dropped once kinetic is not supported anymore
+template <typename ...> using void_t = void;
+template <typename T, typename = void> struct WithRun : public T { using T::T; void run(){ ros::waitForShutdown(); } };
+template<typename T> struct WithRun<T, void_t<decltype(&T::run)> > : public T { using T::T; };
+
 int main(int argc, char** argv)
 {
   ros::init(argc, argv, "moveit_sim_hw_main");
@@ -50,15 +56,13 @@ int main(int argc, char** argv)
   spinner.start();
 
   // Create the hardware interface specific to your robot
-  boost::shared_ptr<moveit_sim_controller::MoveItSimHWInterface> moveit_sim_hw_iface(
+  std::shared_ptr<moveit_sim_controller::MoveItSimHWInterface> moveit_sim_hw_iface(
       new moveit_sim_controller::MoveItSimHWInterface(nh));
   moveit_sim_hw_iface->init();
 
   // Start the control loop
-  ros_control_boilerplate::GenericHWControlLoop control_loop(nh, moveit_sim_hw_iface);
-
-  // Wait until shutdown signal recieved
-  ros::waitForShutdown();
+  WithRun<ros_control_boilerplate::GenericHWControlLoop> control_loop(nh, moveit_sim_hw_iface);
+  control_loop.run(); // blocks until shutdown is signaled
 
   return 0;
 }

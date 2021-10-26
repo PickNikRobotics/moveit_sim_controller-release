@@ -4,11 +4,11 @@ A simulation interface for a hardware interface for ros_control, and loads defau
 
 Intended to replace ``moveit_fake_controller_manager`` - this repo almost exactly replicates a ros_control hardware setup, and has the new feature of being able to specify an inital position.
 
-<img src="https://picknik.ai/images/logo.jpg" width="100">
+<img src="https://picknik.ai/assets/images/logo.jpg" width="120">
 
-Developed by Dave Coleman at [PickNik Consulting](http://picknik.ai/)
+This open source project was developed at [PickNik Robotics](https://picknik.ai/). Need professional ROS development and consulting? Contact us at projects@picknik.ai for a free consultation.
 
-Status:
+## Status:
 
 * [![Build Status](https://travis-ci.org/PickNikRobotics/moveit_sim_controller.svg)](https://travis-ci.org/ros-planning/moveit_sim_controller) Travis CI
 * [![Build Status](http://build.ros.org/buildStatus/icon?job=Kbin_uX64__moveit_sim_controller__ubuntu_xenial_amd64__binary)](http://build.ros.org/view/Kbin_uX64/job/Kbin_uX64__moveit_sim_controller__ubuntu_xenial_amd64__binary/) ROS Buildfarm - AMD64 Xenial Debian Build - Ubuntu 16.04 LTS
