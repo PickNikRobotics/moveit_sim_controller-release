@@ -1,0 +1,61 @@
+ros-noetic-moveit-sim-controller (0.3.0-1buster) buster; urgency=high
+
+  * Fix shared pointer conversion bug (#9 <https://github.com/PickNikRobotics/moveit_sim_controller/issues/9>)
+  * Fixup SFINAE detection of boilerplate API (#6 <https://github.com/PickNikRobotics/moveit_sim_controller/issues/6>)
+  * Cleanup & Fix main executable (#4 <https://github.com/PickNikRobotics/moveit_sim_controller/issues/4>)
+    * if the pose does not exist, still initialize joints Otherwise this warning should be fatal...
+    * conditionally call loop only when available
+  * Contributors: Dave Coleman, Henning Kayser, Jafar Abdi, Michael Görner, Rick Staa
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Mon, 25 Oct 2021 20:00:00 -0000
+
+ros-noetic-moveit-sim-controller (0.2.0-1buster) buster; urgency=high
+
+  * Cleanup UR5 example (#2 <https://github.com/PickNikRobotics/moveit_sim_controller/issues/2>)
+  * Update README
+  * Add example simulated robot with UR5
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Tue, 17 Sep 2019 20:00:00 -0000
+
+ros-noetic-moveit-sim-controller (0.1.0-1buster) buster; urgency=high
+
+  * Add C++11 support
+  * Fixed occational Nan
+  * Minor formatting
+  * added roslint and roslint changes
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Wed, 19 Oct 2016 20:00:00 -0000
+
+ros-noetic-moveit-sim-controller (0.0.5-1buster) buster; urgency=high
+
+  * Fixed deprecated API for rosparam_shortcuts
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Tue, 12 Jan 2016 20:00:00 -0000
+
+ros-noetic-moveit-sim-controller (0.0.4-1buster) buster; urgency=high
+
+  * Improved rosparam_shortcuts api
+  * Fixed initialization of default joint positions
+  * Fix travis
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Sat, 26 Dec 2015 20:00:00 -0000
+
+ros-noetic-moveit-sim-controller (0.0.3-1buster) buster; urgency=high
+
+  * Fix missing dep
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Wed, 09 Dec 2015 20:00:00 -0000
+
+ros-noetic-moveit-sim-controller (0.0.2-1buster) buster; urgency=high
+
+  * Initial release
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <davetcoleman@gmail.com>  Wed, 09 Dec 2015 20:00:00 -0000
+
+
